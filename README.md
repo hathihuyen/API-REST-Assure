@@ -1,11 +1,11 @@
 # API-REST-Assure
 
 ## Example-1:
-* Test Description: * Test a search with a search term and number of 4 videos parameter.
+Test Description: Test a search with a search term and number of 4 videos parameter.
 
-* Base URL:* http://api.5min.com/
+Base URL: http://api.5min.com/
 
-* Base path:* search
+Base path:* search
 
 Search term: Barack Obama
 
@@ -66,3 +66,7 @@ Add documentation, comments which describe the tests sufficiently.
 
 Extra Tools:
 You can format JSON responses with notepad++’s JSON Viewer plugin.
+
+#### Thus, we can run our tests on command prompt by typing below maven command.
+
+##### mvn test –PallApiTests

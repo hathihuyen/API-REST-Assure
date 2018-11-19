@@ -41,6 +41,7 @@ public class Example1Test {
     @Test
     public void T02_SearchTermTest() {
         //Verify the response contained the relevant search term (barack obama)
+        System.out.println(jp.get("api-info.title"));
         Assert.assertEquals("Title is wrong!", ("Search results for \"barack obama\""), jp.get("api-info.title"));
         //assertThat(jp.get("api-info.title"), containsString("barrack obama"));
     }
@@ -48,6 +49,7 @@ public class Example1Test {
     @Test
     public void T03_verifyOnlyFourVideosReturned() {
         //Verify that only 4 video entries were returned
+        System.out.println(HelperMethods.getVideoIdList(jp).size());
         Assert.assertEquals("Video Size is not equal to 4", 4, HelperMethods.getVideoIdList(jp).size());
     }
 
