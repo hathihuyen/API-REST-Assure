@@ -5,11 +5,8 @@ import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.path.json.JsonPath;
 import com.jayway.restassured.response.Response;
 import org.junit.*;
-import org.junit.runners.MethodSorters;
 import static org.junit.Assert.assertTrue;
 
-
-@FixMethodOrder(MethodSorters.NAME_ASCENDING) //For Ascending order test execution
 public class Example1Test {
 
     //First, I declared Response and JsonPath objects.
@@ -41,7 +38,6 @@ public class Example1Test {
     @Test
     public void T02_SearchTermTest() {
         //Verify the response contained the relevant search term (barack obama)
-        System.out.println(jp.get("api-info.title"));
         Assert.assertEquals("Title is wrong!", ("Search results for \"barack obama\""), jp.get("api-info.title"));
         //assertThat(jp.get("api-info.title"), containsString("barrack obama"));
     }

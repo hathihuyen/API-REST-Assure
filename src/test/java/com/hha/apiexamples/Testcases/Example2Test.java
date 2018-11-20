@@ -5,14 +5,12 @@ import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.path.json.JsonPath;
 import com.jayway.restassured.response.Response;
 import org.junit.*;
-import org.junit.runners.MethodSorters;
 
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-@FixMethodOrder(MethodSorters.NAME_ASCENDING) //For Ascending order test execution
 public class Example2Test {
 
     private Response res = null; //Response

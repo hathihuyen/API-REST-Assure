@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4bacf56-84a1-407f-b85b-31c4a16054d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/BasicApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hha/apiexamples/Utils/RestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hha/apiexamples/Utils/RestUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/Example1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/Example1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/Example2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/Example2Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,30 +27,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="7" />
           <entry key="md" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="215" />
+          <entry key="java" value="671" />
           <entry key="md" value="75" />
-          <entry key="xml" value="117" />
+          <entry key="xml" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="215" />
+          <entry key="JAVA" value="671" />
           <entry key="PLAIN_TEXT" value="75" />
-          <entry key="XML" value="117" />
+          <entry key="XML" value="118" />
         </counts>
       </usages-collector>
     </session>
@@ -58,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+            <state relative-caret-position="162">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -67,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hha/apiexamples/Utils/RestUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+            <state relative-caret-position="461">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#541#542#0" expanded="true" />
@@ -81,16 +83,30 @@
                 <element signature="e#1196#1197#0" expanded="true" />
                 <element signature="e#1367#1368#0" expanded="true" />
                 <element signature="e#1408#1409#0" expanded="true" />
+                <element signature="e#2162#2163#0" expanded="true" />
+                <element signature="e#2183#2184#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/Example1Test.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/BasicApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
+            <state relative-caret-position="252">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,10 +115,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/Example1Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/Example2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="-684">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -131,8 +156,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hha/apiexamples/Utils/HelperMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="450">
+              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,12 +181,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/hha/apiexamples/Utils/HelperMethods.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/Example2Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hha/apiexamples/TestSuite/AllApiTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hha/apiexamples/Utils/RestUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hha/apiexamples/Utils/RestUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/Example2Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/Example1Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/BasicApiTest.java" />
       </list>
     </option>
   </component>
@@ -266,7 +293,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542671328195" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542673972116" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -281,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Example2Test">
+  <component name="RunManager" selected="TestNG.BasicApiTest">
     <configuration name="Example1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APITest" />
       <extension name="coverage">
@@ -310,12 +337,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BasicApiTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hha.apiexamples.Testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hha.apiexamples.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.hha.apiexamples.Testcases.BasicApiTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicApiTest.T01_StatusCodeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hha.apiexamples.Testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hha.apiexamples.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.hha.apiexamples.Testcases.BasicApiTest" />
+      <option name="METHOD_NAME" value="T01_StatusCodeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicApiTest.T02_GetClients" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hha.apiexamples.Testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hha.apiexamples.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.hha.apiexamples.Testcases.BasicApiTest" />
+      <option name="METHOD_NAME" value="T02_GetClients" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.Example1Test" />
       <item itemvalue="JUnit.Example2Test" />
+      <item itemvalue="TestNG.BasicApiTest" />
+      <item itemvalue="TestNG.BasicApiTest.T02_GetClients" />
+      <item itemvalue="TestNG.BasicApiTest.T01_StatusCodeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BasicApiTest" />
+        <item itemvalue="TestNG.BasicApiTest.T01_StatusCodeTest" />
+        <item itemvalue="TestNG.BasicApiTest.T02_GetClients" />
         <item itemvalue="JUnit.Example2Test" />
         <item itemvalue="JUnit.Example1Test" />
       </list>
@@ -338,12 +423,30 @@
     <history-entry file="Example1Test - 2018.11.19 at 15h 44m 47s.xml">
       <configuration name="Example1Test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Example1Test - 2018.11.19 at 15h 47m 12s.xml">
+      <configuration name="Example1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Example2Test - 2018.11.19 at 15h 48m 55s.xml">
+      <configuration name="Example2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BasicApiTest - 2018.11.19 at 16h 29m 20s.xml">
+      <configuration name="BasicApiTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BasicApiTest_T02_GetClients - 2018.11.19 at 16h 32m 20s.xml">
+      <configuration name="BasicApiTest.T02_GetClients" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BasicApiTest_T01_StatusCodeTest - 2018.11.19 at 16h 32m 29s.xml">
+      <configuration name="BasicApiTest.T01_StatusCodeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BasicApiTest - 2018.11.19 at 16h 32m 56s.xml">
+      <configuration name="BasicApiTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18815717" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19590482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -352,7 +455,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.335578" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4523008" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,13 +480,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/Example2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/hha/apiexamples/TestSuite/AllApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -401,10 +497,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hha/apiexamples/Utils/HelperMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hha/apiexamples/Utils/RestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        <state relative-caret-position="461">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#541#542#0" expanded="true" />
@@ -417,31 +530,40 @@
             <element signature="e#1196#1197#0" expanded="true" />
             <element signature="e#1367#1368#0" expanded="true" />
             <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="e#2183#2184#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hha/apiexamples/Utils/HelperMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="594">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/Example2Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        <state relative-caret-position="-684">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/Example1Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="51" column="68" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="68" />
+        <state relative-caret-position="108">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hha/apiexamples/Testcases/BasicApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -10,6 +10,7 @@ import static com.jayway.restassured.RestAssured.*;
 public class RestUtil {
     //Global Setup Variables
     public static String path; //Rest request path
+    public static String jsonPathTerm;
 
     /*
     ***Sets Base URI***
@@ -66,6 +67,11 @@ public class RestUtil {
     */
     public static Response getResponse() {
         //System.out.print("path: " + path +"\n");
+        return get(path);
+    }
+
+    //returns response by given path
+    public static Response getResponsebyPath(String path) {
         return get(path);
     }
 
