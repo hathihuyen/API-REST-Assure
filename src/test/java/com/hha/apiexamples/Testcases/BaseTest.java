@@ -1,12 +1,14 @@
 package com.hha.apiexamples.Testcases;
 
-//import Utils.TestUtils;
-import com.hha.apiexamples.Utils.RestUtil;
+import com.hha.apiexamples.Utils.*;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.path.json.JsonPath;
 import com.jayway.restassured.response.Response;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.testng.annotations.*;
+
 
 /**
  *
@@ -32,5 +34,22 @@ public class BaseTest {
         //Reset Values
         RestUtil.resetBaseURI();
         RestUtil.resetBasePath();
+    }
+
+    private static Logger log = LogManager.getLogger(BaseTest.class.getName());
+
+    public static String doLogin(){
+        Response response;
+        log.info("Starting Test Case : doLogin");
+        String loginPayload = PayloadGenerator.generatePayLoadString("JiraLogin.json");
+
+        String endPointURI = URL.getEndPoint("/rest/auth/1/session");
+        response = RESTCalls.POSTRequest(endPointURI, loginPayload);
+        log.info(response.getBody().asString());
+        String strResponse = TestUtils.getResposeString(response);
+        io.restassured.path.json.JsonPath jsonRes = TestUtils.jsonParser(strResponse);
+        String sessionID = jsonRes.getString("session.value");
+        log.info("JIRA JSession ID : " + sessionID);
+        return sessionID;
     }
 }
